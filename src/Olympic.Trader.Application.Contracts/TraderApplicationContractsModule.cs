@@ -1,4 +1,4 @@
-﻿using Volo.Abp.Account;
+using Volo.Abp.Account;
 using Volo.Abp.FeatureManagement;
 using Volo.Abp.Identity;
 using Volo.Abp.Modularity;
@@ -6,6 +6,7 @@ using Volo.Abp.ObjectExtending;
 using Volo.Abp.PermissionManagement;
 using Volo.Abp.SettingManagement;
 using Volo.Abp.TenantManagement;
+using Olympic.Trader.Store;
 
 namespace Olympic.Trader;
 
@@ -19,7 +20,8 @@ namespace Olympic.Trader;
     typeof(AbpTenantManagementApplicationContractsModule),
     typeof(AbpObjectExtendingModule)
 )]
-public class TraderApplicationContractsModule : AbpModule
+[DependsOn(typeof(StoreApplicationContractsModule))]
+    public class TraderApplicationContractsModule : AbpModule
 {
     public override void PreConfigureServices(ServiceConfigurationContext context)
     {

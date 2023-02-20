@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "Olympic.Trader.Store": {
+      "path": "Olympic.Trader.Store.abpmdl.json"
+    }
+  }
+}

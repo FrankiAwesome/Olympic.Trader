@@ -1,0 +1,111 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "Olympic.Trader.Store.Domain.Shared": {
+      "path": "src/Olympic.Trader.Store.Domain.Shared/Olympic.Trader.Store.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "Olympic.Trader.Store.Domain": {
+      "path": "src/Olympic.Trader.Store.Domain/Olympic.Trader.Store.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "Olympic.Trader.Store.Application.Contracts": {
+      "path": "src/Olympic.Trader.Store.Application.Contracts/Olympic.Trader.Store.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "Olympic.Trader.Store.Application": {
+      "path": "src/Olympic.Trader.Store.Application/Olympic.Trader.Store.Application.abppkg.json",
+      "folder": "src"
+    },
+    "Olympic.Trader.Store.EntityFrameworkCore": {
+      "path": "src/Olympic.Trader.Store.EntityFrameworkCore/Olympic.Trader.Store.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "Olympic.Trader.Store.MongoDB": {
+      "path": "src/Olympic.Trader.Store.MongoDB/Olympic.Trader.Store.MongoDB.abppkg.json",
+      "folder": "src"
+    },
+    "Olympic.Trader.Store.HttpApi": {
+      "path": "src/Olympic.Trader.Store.HttpApi/Olympic.Trader.Store.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "Olympic.Trader.Store.HttpApi.Client": {
+      "path": "src/Olympic.Trader.Store.HttpApi.Client/Olympic.Trader.Store.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "Olympic.Trader.Store.TestBase": {
+      "path": "test/Olympic.Trader.Store.TestBase/Olympic.Trader.Store.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "Olympic.Trader.Store.EntityFrameworkCore.Tests": {
+      "path": "test/Olympic.Trader.Store.EntityFrameworkCore.Tests/Olympic.Trader.Store.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Olympic.Trader.Store.MongoDB.Tests": {
+      "path": "test/Olympic.Trader.Store.MongoDB.Tests/Olympic.Trader.Store.MongoDB.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Olympic.Trader.Store.Domain.Tests": {
+      "path": "test/Olympic.Trader.Store.Domain.Tests/Olympic.Trader.Store.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Olympic.Trader.Store.Application.Tests": {
+      "path": "test/Olympic.Trader.Store.Application.Tests/Olympic.Trader.Store.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Olympic.Trader.Store.HttpApi.Host": {
+      "path": "host/Olympic.Trader.Store.HttpApi.Host/Olympic.Trader.Store.HttpApi.Host.abppkg.json",
+      "folder": "host"
+    },
+    "Olympic.Trader.Store.Web": {
+      "path": "src/Olympic.Trader.Store.Web/Olympic.Trader.Store.Web.abppkg.json",
+      "folder": "src"
+    },
+    "Olympic.Trader.Store.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Olympic.Trader.Store.HttpApi.Client.ConsoleTestApp/Olympic.Trader.Store.HttpApi.Client.ConsoleTestApp.abppkg.json",
+      "folder": "test"
+    },
+    "Olympic.Trader.Store.Web.Host": {
+      "path": "host/Olympic.Trader.Store.Web.Host/Olympic.Trader.Store.Web.Host.abppkg.json",
+      "folder": "host"
+    },
+    "Olympic.Trader.Store.AuthServer": {
+      "path": "host/Olympic.Trader.Store.AuthServer/Olympic.Trader.Store.AuthServer.abppkg.json",
+      "folder": "host"
+    },
+    "Olympic.Trader.Store.Host.Shared": {
+      "path": "host/Olympic.Trader.Store.Host.Shared/Olympic.Trader.Store.Host.Shared.abppkg.json",
+      "folder": "host"
+    },
+    "Olympic.Trader.Store.Web.Unified": {
+      "path": "host/Olympic.Trader.Store.Web.Unified/Olympic.Trader.Store.Web.Unified.abppkg.json",
+      "folder": "host"
+    },
+    "Olympic.Trader.Store.Blazor": {
+      "path": "src/Olympic.Trader.Store.Blazor/Olympic.Trader.Store.Blazor.abppkg.json",
+      "folder": "src"
+    },
+    "Olympic.Trader.Store.Blazor.Host": {
+      "path": "host/Olympic.Trader.Store.Blazor.Host/Olympic.Trader.Store.Blazor.Host.abppkg.json",
+      "folder": "host"
+    },
+    "Olympic.Trader.Store.Blazor.Server": {
+      "path": "src/Olympic.Trader.Store.Blazor.Server/Olympic.Trader.Store.Blazor.Server.abppkg.json",
+      "folder": "src"
+    },
+    "Olympic.Trader.Store.Blazor.WebAssembly": {
+      "path": "src/Olympic.Trader.Store.Blazor.WebAssembly/Olympic.Trader.Store.Blazor.WebAssembly.abppkg.json",
+      "folder": "src"
+    },
+    "Olympic.Trader.Store.Blazor.Server.Host": {
+      "path": "host/Olympic.Trader.Store.Blazor.Server.Host/Olympic.Trader.Store.Blazor.Server.Host.abppkg.json",
+      "folder": "host"
+    }
+  }
+}

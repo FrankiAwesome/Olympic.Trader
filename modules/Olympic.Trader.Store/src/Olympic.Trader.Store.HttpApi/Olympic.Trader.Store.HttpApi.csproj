@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>Olympic.Trader.Store</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.AspNetCore.Mvc" Version="7.0.1" />
+    <ProjectReference Include="..\Olympic.Trader.Store.Application.Contracts\Olympic.Trader.Store.Application.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -19,7 +19,7 @@
     <Content Remove="Logs\**" />
     <EmbeddedResource Remove="Logs\**" />
     <None Remove="Logs\**" />
-  </ItemGroup>
+  <ProjectReference Include="..\..\modules\Olympic.Trader.Store\src\Olympic.Trader.Store.Web\Olympic.Trader.Store.Web.csproj" /></ItemGroup>
 
   <ItemGroup>
     <None Update="Pages\**\*.js">

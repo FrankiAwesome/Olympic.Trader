@@ -9,7 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Olympic.Trader.Application.Contracts\Olympic.Trader.Application.Contracts.csproj" />
-  </ItemGroup>
+  <ProjectReference Include="..\..\modules\Olympic.Trader.Store\src\Olympic.Trader.Store.HttpApi.Client\Olympic.Trader.Store.HttpApi.Client.csproj" /></ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Volo.Abp.Account.HttpApi.Client" Version="7.0.1" />

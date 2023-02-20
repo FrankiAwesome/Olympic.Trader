@@ -5,6 +5,40 @@ VisualStudioVersion = 16.0.29020.237
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Olympic.Trader.Domain", "src\Olympic.Trader.Domain\Olympic.Trader.Domain.csproj", "{554AD327-6DBA-4F8F-96F8-81CE7A0C863F}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Olympic.Trader.Store.TestBase", "modules\Olympic.Trader.Store\test\Olympic.Trader.Store.TestBase\Olympic.Trader.Store.TestBase.csproj", "{a69369d7-087a-4ea2-a3b9-c6cc638eadee}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Olympic.Trader.Store.HttpApi.Client.ConsoleTestApp", "modules\Olympic.Trader.Store\test\Olympic.Trader.Store.HttpApi.Client.ConsoleTestApp\Olympic.Trader.Store.HttpApi.Client.ConsoleTestApp.csproj", "{b494e3b5-f05a-4390-aca4-4b45a7b7ccf1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Olympic.Trader.Store.EntityFrameworkCore.Tests", "modules\Olympic.Trader.Store\test\Olympic.Trader.Store.EntityFrameworkCore.Tests\Olympic.Trader.Store.EntityFrameworkCore.Tests.csproj", "{77d9be28-2801-4870-87d1-910703df8748}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Olympic.Trader.Store.Domain.Tests", "modules\Olympic.Trader.Store\test\Olympic.Trader.Store.Domain.Tests\Olympic.Trader.Store.Domain.Tests.csproj", "{7d82c3fa-06dc-499b-b9d7-57dd9c458077}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Olympic.Trader.Store.Application.Tests", "modules\Olympic.Trader.Store\test\Olympic.Trader.Store.Application.Tests\Olympic.Trader.Store.Application.Tests.csproj", "{b0ce5ed4-6ec3-42c7-9483-c11ba47f22a2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Olympic.Trader.Store.Web", "modules\Olympic.Trader.Store\src\Olympic.Trader.Store.Web\Olympic.Trader.Store.Web.csproj", "{defe7ec3-6f09-4a5c-85ea-d9d66a79e15f}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Olympic.Trader.Store.Installer", "modules\Olympic.Trader.Store\src\Olympic.Trader.Store.Installer\Olympic.Trader.Store.Installer.csproj", "{02c33cff-afda-4a13-a70b-33d48f70add7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Olympic.Trader.Store.HttpApi.Client", "modules\Olympic.Trader.Store\src\Olympic.Trader.Store.HttpApi.Client\Olympic.Trader.Store.HttpApi.Client.csproj", "{b65ed025-5fd7-46c2-829c-593a2826645d}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Olympic.Trader.Store.HttpApi", "modules\Olympic.Trader.Store\src\Olympic.Trader.Store.HttpApi\Olympic.Trader.Store.HttpApi.csproj", "{feedcb03-6001-4d35-be59-7947dba840a1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Olympic.Trader.Store.EntityFrameworkCore", "modules\Olympic.Trader.Store\src\Olympic.Trader.Store.EntityFrameworkCore\Olympic.Trader.Store.EntityFrameworkCore.csproj", "{f309fdb2-c8f9-4659-979c-1a6158f1bdd7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Olympic.Trader.Store.Domain.Shared", "modules\Olympic.Trader.Store\src\Olympic.Trader.Store.Domain.Shared\Olympic.Trader.Store.Domain.Shared.csproj", "{9952e1b8-94a4-4caa-bb99-ae5b197aac90}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Olympic.Trader.Store.Domain", "modules\Olympic.Trader.Store\src\Olympic.Trader.Store.Domain\Olympic.Trader.Store.Domain.csproj", "{f47f5bd0-1476-45d5-8841-4ef2f37f822b}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Olympic.Trader.Store.Application.Contracts", "modules\Olympic.Trader.Store\src\Olympic.Trader.Store.Application.Contracts\Olympic.Trader.Store.Application.Contracts.csproj", "{181d5cff-2363-4b59-9e89-72a96e5f73eb}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Olympic.Trader.Store.Application", "modules\Olympic.Trader.Store\src\Olympic.Trader.Store.Application\Olympic.Trader.Store.Application.csproj", "{89915537-84cf-4d55-9af0-e02f4a28a02c}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Olympic.Trader.Store.Tests", "Olympic.Trader.Store.Tests", "{e4efa9fe-40bf-484d-bfed-53c7bf6bded6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Olympic.Trader.Store", "Olympic.Trader.Store", "{7b84d601-b5ef-4c7f-a2de-6a4bb37dde4d}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "modules", "modules", "{3ecb60dc-05e4-4264-bb3e-fe9a319fb00a}"
+EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Olympic.Trader.Application", "src\Olympic.Trader.Application\Olympic.Trader.Application.csproj", "{1A94A50E-06DC-43C1-80B5-B662820EC3EB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Olympic.Trader.EntityFrameworkCore", "src\Olympic.Trader.EntityFrameworkCore\Olympic.Trader.EntityFrameworkCore.csproj", "{C956DD76-69C8-4A9C-83EA-D17DF83340FD}"
@@ -43,6 +77,62 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{a69369d7-087a-4ea2-a3b9-c6cc638eadee}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{a69369d7-087a-4ea2-a3b9-c6cc638eadee}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{a69369d7-087a-4ea2-a3b9-c6cc638eadee}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{a69369d7-087a-4ea2-a3b9-c6cc638eadee}.Release|Any CPU.Build.0 = Release|Any CPU
+		{b494e3b5-f05a-4390-aca4-4b45a7b7ccf1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{b494e3b5-f05a-4390-aca4-4b45a7b7ccf1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{b494e3b5-f05a-4390-aca4-4b45a7b7ccf1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{b494e3b5-f05a-4390-aca4-4b45a7b7ccf1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77d9be28-2801-4870-87d1-910703df8748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77d9be28-2801-4870-87d1-910703df8748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77d9be28-2801-4870-87d1-910703df8748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77d9be28-2801-4870-87d1-910703df8748}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7d82c3fa-06dc-499b-b9d7-57dd9c458077}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7d82c3fa-06dc-499b-b9d7-57dd9c458077}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7d82c3fa-06dc-499b-b9d7-57dd9c458077}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7d82c3fa-06dc-499b-b9d7-57dd9c458077}.Release|Any CPU.Build.0 = Release|Any CPU
+		{b0ce5ed4-6ec3-42c7-9483-c11ba47f22a2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{b0ce5ed4-6ec3-42c7-9483-c11ba47f22a2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{b0ce5ed4-6ec3-42c7-9483-c11ba47f22a2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{b0ce5ed4-6ec3-42c7-9483-c11ba47f22a2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{defe7ec3-6f09-4a5c-85ea-d9d66a79e15f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{defe7ec3-6f09-4a5c-85ea-d9d66a79e15f}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{defe7ec3-6f09-4a5c-85ea-d9d66a79e15f}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{defe7ec3-6f09-4a5c-85ea-d9d66a79e15f}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02c33cff-afda-4a13-a70b-33d48f70add7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02c33cff-afda-4a13-a70b-33d48f70add7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02c33cff-afda-4a13-a70b-33d48f70add7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02c33cff-afda-4a13-a70b-33d48f70add7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{b65ed025-5fd7-46c2-829c-593a2826645d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{b65ed025-5fd7-46c2-829c-593a2826645d}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{b65ed025-5fd7-46c2-829c-593a2826645d}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{b65ed025-5fd7-46c2-829c-593a2826645d}.Release|Any CPU.Build.0 = Release|Any CPU
+		{feedcb03-6001-4d35-be59-7947dba840a1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{feedcb03-6001-4d35-be59-7947dba840a1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{feedcb03-6001-4d35-be59-7947dba840a1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{feedcb03-6001-4d35-be59-7947dba840a1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{f309fdb2-c8f9-4659-979c-1a6158f1bdd7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{f309fdb2-c8f9-4659-979c-1a6158f1bdd7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{f309fdb2-c8f9-4659-979c-1a6158f1bdd7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{f309fdb2-c8f9-4659-979c-1a6158f1bdd7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9952e1b8-94a4-4caa-bb99-ae5b197aac90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9952e1b8-94a4-4caa-bb99-ae5b197aac90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9952e1b8-94a4-4caa-bb99-ae5b197aac90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9952e1b8-94a4-4caa-bb99-ae5b197aac90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{f47f5bd0-1476-45d5-8841-4ef2f37f822b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{f47f5bd0-1476-45d5-8841-4ef2f37f822b}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{f47f5bd0-1476-45d5-8841-4ef2f37f822b}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{f47f5bd0-1476-45d5-8841-4ef2f37f822b}.Release|Any CPU.Build.0 = Release|Any CPU
+		{181d5cff-2363-4b59-9e89-72a96e5f73eb}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{181d5cff-2363-4b59-9e89-72a96e5f73eb}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{181d5cff-2363-4b59-9e89-72a96e5f73eb}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{181d5cff-2363-4b59-9e89-72a96e5f73eb}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89915537-84cf-4d55-9af0-e02f4a28a02c}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89915537-84cf-4d55-9af0-e02f4a28a02c}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89915537-84cf-4d55-9af0-e02f4a28a02c}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89915537-84cf-4d55-9af0-e02f4a28a02c}.Release|Any CPU.Build.0 = Release|Any CPU
 		{554AD327-6DBA-4F8F-96F8-81CE7A0C863F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{554AD327-6DBA-4F8F-96F8-81CE7A0C863F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{554AD327-6DBA-4F8F-96F8-81CE7A0C863F}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -108,6 +198,22 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{a69369d7-087a-4ea2-a3b9-c6cc638eadee} = {e4efa9fe-40bf-484d-bfed-53c7bf6bded6}
+		{b494e3b5-f05a-4390-aca4-4b45a7b7ccf1} = {e4efa9fe-40bf-484d-bfed-53c7bf6bded6}
+		{77d9be28-2801-4870-87d1-910703df8748} = {e4efa9fe-40bf-484d-bfed-53c7bf6bded6}
+		{7d82c3fa-06dc-499b-b9d7-57dd9c458077} = {e4efa9fe-40bf-484d-bfed-53c7bf6bded6}
+		{b0ce5ed4-6ec3-42c7-9483-c11ba47f22a2} = {e4efa9fe-40bf-484d-bfed-53c7bf6bded6}
+		{defe7ec3-6f09-4a5c-85ea-d9d66a79e15f} = {7b84d601-b5ef-4c7f-a2de-6a4bb37dde4d}
+		{02c33cff-afda-4a13-a70b-33d48f70add7} = {7b84d601-b5ef-4c7f-a2de-6a4bb37dde4d}
+		{b65ed025-5fd7-46c2-829c-593a2826645d} = {7b84d601-b5ef-4c7f-a2de-6a4bb37dde4d}
+		{feedcb03-6001-4d35-be59-7947dba840a1} = {7b84d601-b5ef-4c7f-a2de-6a4bb37dde4d}
+		{f309fdb2-c8f9-4659-979c-1a6158f1bdd7} = {7b84d601-b5ef-4c7f-a2de-6a4bb37dde4d}
+		{9952e1b8-94a4-4caa-bb99-ae5b197aac90} = {7b84d601-b5ef-4c7f-a2de-6a4bb37dde4d}
+		{f47f5bd0-1476-45d5-8841-4ef2f37f822b} = {7b84d601-b5ef-4c7f-a2de-6a4bb37dde4d}
+		{181d5cff-2363-4b59-9e89-72a96e5f73eb} = {7b84d601-b5ef-4c7f-a2de-6a4bb37dde4d}
+		{89915537-84cf-4d55-9af0-e02f4a28a02c} = {7b84d601-b5ef-4c7f-a2de-6a4bb37dde4d}
+		{e4efa9fe-40bf-484d-bfed-53c7bf6bded6} = {04DBDB01-70F4-4E06-B468-8F87850B22BE}
+		{7b84d601-b5ef-4c7f-a2de-6a4bb37dde4d} = {3ecb60dc-05e4-4264-bb3e-fe9a319fb00a}
 		{554AD327-6DBA-4F8F-96F8-81CE7A0C863F} = {CA9AC87F-097E-4F15-8393-4BC07735A5B0}
 		{1A94A50E-06DC-43C1-80B5-B662820EC3EB} = {CA9AC87F-097E-4F15-8393-4BC07735A5B0}
 		{C956DD76-69C8-4A9C-83EA-D17DF83340FD} = {CA9AC87F-097E-4F15-8393-4BC07735A5B0}
