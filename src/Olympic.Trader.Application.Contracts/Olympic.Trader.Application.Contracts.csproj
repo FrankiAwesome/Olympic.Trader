@@ -9,7 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Olympic.Trader.Domain.Shared\Olympic.Trader.Domain.Shared.csproj" />
-  </ItemGroup>
+  <ProjectReference Include="..\..\modules\Olympic.Trader.Store\src\Olympic.Trader.Store.Application.Contracts\Olympic.Trader.Store.Application.Contracts.csproj" /></ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Volo.Abp.ObjectExtending" Version="7.0.1" />

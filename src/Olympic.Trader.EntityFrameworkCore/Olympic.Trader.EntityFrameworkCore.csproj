@@ -18,7 +18,7 @@
     <PackageReference Include="Volo.Abp.TenantManagement.EntityFrameworkCore" Version="7.0.1" />
     <PackageReference Include="Volo.Abp.FeatureManagement.EntityFrameworkCore" Version="7.0.1" />
     <PackageReference Include="Volo.Abp.OpenIddict.EntityFrameworkCore" Version="7.0.1" />
-  </ItemGroup>
+  <ProjectReference Include="..\..\modules\Olympic.Trader.Store\src\Olympic.Trader.Store.EntityFrameworkCore\Olympic.Trader.Store.EntityFrameworkCore.csproj" /></ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.1">

@@ -17,7 +17,7 @@
     <PackageReference Include="Volo.Abp.PermissionManagement.Domain.Shared" Version="7.0.1" />
     <PackageReference Include="Volo.Abp.SettingManagement.Domain.Shared" Version="7.0.1" />
     <PackageReference Include="Volo.Abp.OpenIddict.Domain.Shared" Version="7.0.1" />
-  </ItemGroup>
+  <ProjectReference Include="..\..\modules\Olympic.Trader.Store\src\Olympic.Trader.Store.Domain.Shared\Olympic.Trader.Store.Domain.Shared.csproj" /></ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="Localization\Trader\*.json" />

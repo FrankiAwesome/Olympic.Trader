@@ -1,4 +1,4 @@
-﻿using Olympic.Trader.Localization;
+using Olympic.Trader.Localization;
 using Volo.Abp.AuditLogging;
 using Volo.Abp.BackgroundJobs;
 using Volo.Abp.FeatureManagement;
@@ -12,6 +12,7 @@ using Volo.Abp.SettingManagement;
 using Volo.Abp.TenantManagement;
 using Volo.Abp.Validation.Localization;
 using Volo.Abp.VirtualFileSystem;
+using Olympic.Trader.Store;
 
 namespace Olympic.Trader;
 
@@ -25,7 +26,8 @@ namespace Olympic.Trader;
     typeof(AbpSettingManagementDomainSharedModule),
     typeof(AbpTenantManagementDomainSharedModule)    
     )]
-public class TraderDomainSharedModule : AbpModule
+[DependsOn(typeof(StoreDomainSharedModule))]
+    public class TraderDomainSharedModule : AbpModule
 {
     public override void PreConfigureServices(ServiceConfigurationContext context)
     {
