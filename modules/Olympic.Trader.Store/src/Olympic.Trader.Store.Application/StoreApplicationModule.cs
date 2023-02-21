@@ -18,7 +18,7 @@ public class StoreApplicationModule : AbpModule
         context.Services.AddAutoMapperObjectMapper<StoreApplicationModule>();
         Configure<AbpAutoMapperOptions>(options =>
         {
-            options.AddMaps<StoreApplicationModule>(validate: true);
+            options.AddMaps<StoreApplicationModule>();
         });
     }
 }

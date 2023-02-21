@@ -9,6 +9,7 @@ using Volo.Abp.Modularity;
 using Volo.Abp.UI.Navigation;
 using Volo.Abp.VirtualFileSystem;
 using Olympic.Trader.Store.Permissions;
+using Volo.Abp.AspNetCore.Mvc;
 
 namespace Olympic.Trader.Store.Web;
 
@@ -34,6 +35,8 @@ public class StoreWebModule : AbpModule
 
     public override void ConfigureServices(ServiceConfigurationContext context)
     {
+        ConfigureAutoApiControllers();
+
         Configure<AbpNavigationOptions>(options =>
         {
             options.MenuContributors.Add(new StoreMenuContributor());
@@ -54,5 +57,13 @@ public class StoreWebModule : AbpModule
         {
                 //Configure authorization.
             });
+    }
+    
+    private void ConfigureAutoApiControllers()
+    {
+        Configure<AbpAspNetCoreMvcOptions>(options =>
+        {
+            options.ConventionalControllers.Create(typeof(StoreApplicationModule).Assembly);
+        });
     }
 }
