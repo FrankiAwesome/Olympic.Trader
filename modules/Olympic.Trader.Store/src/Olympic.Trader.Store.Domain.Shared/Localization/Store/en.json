@@ -2,6 +2,12 @@
   "culture": "en",
   "texts": {
     "MyAccount":  "My account",
-    "SamplePageMessage": "A sample page for the Store module"
+    "SamplePageMessage": "A sample page for the Olympic.Trader.Store module",
+    "Permission:Store": "Olympic Trader Store",
+    "Permission:Products": "Product Management",
+    "Permission:Products.Create": "Create a new Product",
+    "Permission:Products.Edit": "Edit Product",
+    "Permission:Products.Delete": "Delete Product",
+    "Permission:Products.AllowGetAvailability": "Allow Get Availability"
   }
 }

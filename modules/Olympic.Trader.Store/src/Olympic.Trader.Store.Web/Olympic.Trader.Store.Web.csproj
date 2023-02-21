@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Olympic.Trader.Store.Application.Contracts\Olympic.Trader.Store.Application.Contracts.csproj" />
+    <ProjectReference Include="..\Olympic.Trader.Store.Application\Olympic.Trader.Store.Application.csproj" />
   </ItemGroup>
 
   <ItemGroup>
